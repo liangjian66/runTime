@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
+// 替换系统方法
     UIImage *image = [UIImage imageNamed:@"123"];
 
     
