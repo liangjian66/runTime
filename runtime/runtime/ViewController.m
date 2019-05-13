@@ -10,6 +10,7 @@
 #import "TableViewController.h"
 #import "Movie.h"
 #import "UIImage+Image.h"
+#import "runTimeObject.h"
 #define kMovieListURL @"http://project.lanou3g.com/teacher/yihuiyun/lanouproject/movielist.php"
 @interface ViewController ()
 @property (nonatomic, retain) NSMutableArray *allDataArray;
@@ -21,7 +22,10 @@
     [super viewDidLoad];
     
 // 替换系统方法
-    UIImage *image = [UIImage imageNamed:@"123"];
+//    UIImage *image = [UIImage imageNamed:@"123"];
+// 消息转发
+    runTimeObject *objc = [[runTimeObject alloc] init];
+    [objc test];
 
     
 }

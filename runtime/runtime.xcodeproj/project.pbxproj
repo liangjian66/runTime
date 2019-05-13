@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882F584D22893EAF0031F372 /* runTimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 882F584C22893EAF0031F372 /* runTimeObject.m */; };
 		88E907EA2285BED40075418E /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E907E92285BED40075418E /* UIImage+Image.m */; };
 		C205086D1CBD481F0026AC7A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205086C1CBD481F0026AC7A /* TableViewController.m */; };
 		C288A6581CC10AC900BC7B0C /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C288A6571CC10AC900BC7B0C /* FourViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		882F584B22893EAF0031F372 /* runTimeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runTimeObject.h; sourceTree = "<group>"; };
+		882F584C22893EAF0031F372 /* runTimeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runTimeObject.m; sourceTree = "<group>"; };
 		88E907E82285BED40075418E /* UIImage+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		88E907E92285BED40075418E /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		C205086B1CBD481F0026AC7A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				C288A65D1CC10AE000BC7B0C /* SixViewController.m */,
 				C288A65F1CC10AEE00BC7B0C /* SevenViewController.h */,
 				C288A6601CC10AEE00BC7B0C /* SevenViewController.m */,
+				882F584B22893EAF0031F372 /* runTimeObject.h */,
+				882F584C22893EAF0031F372 /* runTimeObject.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				C288A65B1CC10AD400BC7B0C /* FiveViewController.m in Sources */,
 				C2DEA99E1CBBB8970024C7F7 /* ViewController.m in Sources */,
 				C28FABAF1CBCEB82007FB54C /* HGUser.m in Sources */,
+				882F584D22893EAF0031F372 /* runTimeObject.m in Sources */,
 				88E907EA2285BED40075418E /* UIImage+Image.m in Sources */,
 				C28D627F1CBDE318001D0518 /* twoViewController.m in Sources */,
 				C2BEFF9F1CC256F90047CA1F /* UIButton+count.m in Sources */,
